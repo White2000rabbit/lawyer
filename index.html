@@ -1,1 +1,51 @@
 
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css"/>
+      <script src="https://kit.fontawesome.com/86b37f988d.js" crossorigin="anonymous"></script>
+      <title>Онлайн-юрист</title>
+   </head>
+   <body>
+      <div class="wrapper">
+         <header class="header">
+         </header>
+         <main class="page">
+            <div class="page__background background">
+               <picture>
+                  <img class='background__img' src="img/back.jpg" alt="фоновое изображение гор">
+                  <svg class='background__mask'>
+                     <defs>
+                        <linearGradient id="gradient" gradientTransform="rotate(75)">
+                           <stop offset="5%" stop-color="#000" />
+                           <stop offset="95%" stop-color="#000" />
+                        </linearGradient>
+                        <mask id="mask">
+                           <rect width="100%" height="100%" fill="#fff" />
+                           <text  x="10%" y="35%" font-size="2em" font-weight="600" letter-spacing='5'>Онлайн-консультация</text>
+                           <text  x="10%" y="50%" font-size="6em" font-weight="600" letter-spacing='7'>Юридические услуги</text>
+                        </mask>
+                     </defs>
+                     <rect fill="url(#gradient)" fill-opacity="0.7" mask="url(#mask)" />
+                  </svg>
+               </picture>
+            </div>
+            <div class="page__content">
+               <details>
+                  
+               </details>
+            </div>
+         </main>
+         <footer class="footer">
+            <div class="footer__row">
+               <a class='buttons__social fa-brands fa-github' href="https://github.com/White2000rabbit"></a>
+            </div>
+            <div class="footer__row">
+               <span><a href="https://ru.freepik.com/free-photo/beautiful-shot-of-mountains-and-trees-covered-in-snow-and-fog_10584363.htm#query=%D0%B3%D0%BE%D1%80%D1%8B&position=6&from_view=search&track=sph&uuid=a17fe86b-2b53-4cb4-84a7-bd1a344a8d25">Изображение от wirestock</a> на Freepik</span>
+            </div>
+         </footer>
+      </div>
+   </body>
+</html>

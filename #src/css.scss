@@ -1,0 +1,68 @@
+/*Обнуляющие стили*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+html, body {
+   width:100%;
+   font-family: 'Times New Roman';
+   font-weight: 400; 
+   line-height:150%; 
+	font-size: 16px;
+   scroll-behavior: smooth;
+}
+a {
+	text-decoration: none;
+	color: #141414;
+}
+ul, li {
+	list-style: none;
+}
+h1, h2, h3 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+.wrapper {
+   display: flex;
+   flex-direction: column;
+}
+.footer {
+   height: 120px;
+   width:100%;
+   background-color:#141414;
+}
+.page {
+   width: 100%;
+   min-height:100vh;
+}
+.background {
+   &__img {
+      display: block;
+      width: 100%;
+      height:100%;
+      object-fit: cover;
+      position: fixed;
+      will-change: transform;
+      z-index: -1;
+   }
+   &__mask {
+      display:block;
+      width:100%;
+      height:100vh;
+      padding:0;
+   }
+   &__mask > rect {
+      width:100%; 
+      height:100%;
+   }
+}
+
+.page__content{
+   padding-top: 100px;
+   background-color: #222;
+   text-align: center;
+   color: #fff;
+ }
+ 
